@@ -303,3 +303,86 @@ footer {
     font-size: 0.85rem;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
+
+/*======================================================================================================*/
+
+/* --- DISEÑO DE TARJETAS DE BIOGRAFÍA HORIZONTALES --- */
+.contenedor-biografias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch; /* Hace que ambas tarjetas tengan exactamente la misma altura */
+    gap: 35px; /* Espaciado armonioso entre las dos ventanas */
+    width: 100%;
+    margin-top: 10px;
+    flex-wrap: wrap; /* Si se abre en celulares, se acomodan una abajo de la otra sin romperse */
+}
+
+/* CÁPSULA ESTILO CRISTAL PARA CADA INTEGRANTE */
+.tarjeta-usuario {
+    background-color: rgba(29, 11, 53, 0.45); /* Fondo oscuro translúcido para contraste premium */
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 30px 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    /* Distribución interna proporcional */
+    flex: 1;
+    max-width: 28rem;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
+}
+
+/* Efecto interactivo al pasar el mouse por encima de la tarjeta */
+.tarjeta-usuario:hover {
+    transform: translateY(-5px); /* Micro-elevación profesional */
+    box-shadow: 0 15px 35px rgba(119, 53, 117, 0.3);
+    border-color: rgba(255, 179, 186, 0.25); /* Destello sutil en el borde */
+}
+
+/* ÍCONO O AVATAR DE USUARIO */
+.avatar-perfil {
+    font-size: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tarjeta-usuario h3 {
+    font-size: 1.35rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+/* ETIQUETA DE ROL O CARRERA */
+.tarjeta-usuario .rol {
+    font-size: 0.85rem;
+    color: #ffb3ba; /* Rosa pastel de tu paleta hover */
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 1.2rem;
+}
+
+/* TEXTO EXPLICATIVO DE LA BIOGRAFÍA */
+.bio-texto {
+    font-size: 0.92rem;
+    color: #e2e8f0;
+    line-height: 1.6;
+    text-align: justify; /* Alineación limpia estilo bloque de lectura */
+    margin: 0;
+}
+
