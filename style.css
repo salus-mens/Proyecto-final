@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 
-=======
-/* --- PROYECTO FINAL: CONFIGURACIÓN CORPORATIVA --- */
->>>>>>> David
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +6,10 @@
 }
 
 body {
-    /* Tipografía nativa profesional de Apple/Windows (Legibilidad perfecta) */
+
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     line-height: 1.5;
     
-    /* GRADIENTE CÓSMICO ORIGINAL OPTIMIZADO */
     background: linear-gradient(
         to bottom, 
         #1d1135 0%,    
@@ -34,34 +29,26 @@ body {
 }
 
 header {
-<<<<<<< HEAD
+
     background-color: #4d3ab6;
-=======
+
     background-color: transparent; 
->>>>>>> David
     color: #ffffff;
     text-align: center;
     padding: 3rem 1rem 1rem 1rem;
 }
 
-<<<<<<< HEAD
-nav {
-    background-color: #3a45d8; 
-    padding: 0.5rem;
-=======
-/* --- NAVBAR ESTILO CÁPSULA FLOTANTE DE CRISTAL (PREMIUM) --- */
 nav.navbar {
-    background-color: rgba(206, 153, 204, 0.25) !important; /* Más traslúcido para elegancia */
+    background-color: rgba(206, 153, 204, 0.25) !important; 
     max-width: 900px; 
     margin: 0 auto 1.5rem auto !important; 
     padding: 0.6rem 2.5rem !important; 
     border-radius: 50px !important; 
-    backdrop-filter: blur(20px); /* Desenfoque de vidrio más profundo */
+    backdrop-filter: blur(20px); 
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.12);
     box-shadow: 0 10px 40px rgba(29, 17, 53, 0.4);
     transition: all 0.3s ease;
->>>>>>> David
 }
 
 nav.navbar .container-fluid {
@@ -77,7 +64,7 @@ nav.navbar .container-fluid div img {
     width: auto !important;           
     display: block !important;
     mix-blend-mode: multiply;  
-    animation: rotacionHorizontal 6s linear infinite; /* Animación ligeramente más suave */
+    animation: rotacionHorizontal 6s linear infinite; 
 }
 
 @keyframes rotacionHorizontal {
@@ -107,7 +94,6 @@ nav.navbar .navbar-nav .nav-item .nav-link {
     transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-/* HOVER ORIGINAL REFINADO CON REFUERZO DE SOMBRA */
 nav.navbar .navbar-nav .nav-item .nav-link:hover {
     color: #ffb3ba !important; 
     background-color: rgba(201, 160, 220, 0.25) !important; 
@@ -127,9 +113,8 @@ main {
     flex: 1;
 }
 
-/* --- SECCIÓN EN EFECTO VENTANA MODERNO --- */
 section {
-    background-color: rgba(56, 26, 75, 0.35); /* Balance de contraste ideal */
+    background-color: rgba(56, 26, 75, 0.35); 
     padding: 3.5rem 3rem; 
     margin-bottom: 2.5rem;
     border-radius: 24px; 
@@ -143,7 +128,6 @@ section {
     flex: 1;
 }
 
-/* --- TIPOGRAFÍA DE TÍTULOS --- */
 .titulo {
     text-align: center;
     font-size: 2.4rem; 
@@ -154,7 +138,7 @@ section {
 }
 
 h2 {
-    color: #fbcfe8; /* Rosa pastel de alta legibilidad */
+    color: #fbcfe8; 
     font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -162,7 +146,6 @@ h2 {
     padding-bottom: 0.6rem;
 }
 
-/* --- BLOQUE DE PRESENTACIÓN (LOGO + TEXTO EN FILA) --- */
 .imagen-fondo {
     background-color: rgba(255, 255, 255, 0.02);
     padding: 40px; 
@@ -194,7 +177,7 @@ h2 {
 }
 
 .descripcion {
-    background-color: rgba(29, 11, 53, 0.5); /* Fondo oscuro premium para leer sin fatiga */
+    background-color: rgba(29, 11, 53, 0.5); 
     padding: 26px 32px;
     border-radius: 16px;
     text-align: left;         
@@ -209,10 +192,9 @@ h2 {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* --- TABLAS DE DATOS ESTILO SQUIRCLE CRISTAL --- */
 table {
     width: 100%;
-    border-collapse: separate; /* Permite bordes redondeados limpios */
+    border-collapse: separate; 
     border-spacing: 0;
     margin-top: 1.5rem;
     font-size: 0.95rem;
@@ -228,7 +210,7 @@ th, td {
 }
 
 th {
-    background-color: rgba(59, 28, 97, 0.75); /* Tono morado medio traslúcido */
+    background-color: rgba(59, 28, 97, 0.75); 
     color: #ffffff;
     font-weight: 600;
     text-transform: uppercase;
@@ -241,11 +223,10 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-    background-color: rgba(255, 255, 255, 0.06); /* Animación interactiva en filas */
+    background-color: rgba(255, 255, 255, 0.06); 
     transition: background-color 0.2s ease;
 }
 
-/* --- FORMULARIOS MODERNOS --- */
 form {
     display: flex;
     flex-direction: column;
@@ -281,7 +262,6 @@ textarea:focus {
     box-shadow: 0 0 14px rgba(255, 179, 186, 0.25);
 }
 
-/* --- BOTÓN CORPORATIVO CON MICRO-ANIMACIÓN --- */
 button {
     background-color: #773575;
     color: #ffffff;
@@ -298,17 +278,14 @@ button {
 
 button:hover {
     background-color: #542668;
-    transform: translateY(-2px); /* Pequeña elevación */
+    transform: translateY(-2px); 
     box-shadow: 0 6px 20px rgba(119, 53, 117, 0.6);
 }
 
 button:active {
-    transform: translateY(0); /* Simula presión física física al dar click */
+    transform: translateY(0); 
 }
-<<<<<<< HEAD
-=======
 
-/* --- FOOTER DISCRETO --- */
 footer {
     background-color: rgba(29, 11, 53, 0.4);
     backdrop-filter: blur(10px);
@@ -401,5 +378,3 @@ footer {
     text-align: justify; /* Alineación limpia estilo bloque de lectura */
     margin: 0;
 }
-
->>>>>>> David
