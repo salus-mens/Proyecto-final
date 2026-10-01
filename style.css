@@ -1,0 +1,152 @@
+<<<<<<< HEAD
+=======
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9; 
+    color: #333333;
+}
+
+
+header {
+    background-color: #1a365d;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+nav {
+    background-color: #2b6cb0; 
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #319795; 
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #1a365d;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #319795;
+    padding-bottom: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+    background-color: #1a365d;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc; 
+}
+
+tr:hover {
+    background-color: #edf2f7; 
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+    color: #4a5568;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #319795; 
+}
+
+button {
+    background-color: #319795;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #234e52; 
+}
+
+footer {
+    background-color: #1a365d;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.85rem;
+    margin-top: 4rem;
+}
+>>>>>>> aa1de2837825781008f311dbd1b997f076d1a4b6
