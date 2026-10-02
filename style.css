@@ -378,3 +378,18 @@ footer {
     text-align: justify; /* Alineación limpia estilo bloque de lectura */
     margin: 0;
 }
+
+.iframe {
+    background-color: rgba(29, 11, 53, 0.45);
+    width: 100%;
+    max-width: 50rem; /* Limita el ancho máximo para que se vea elegante */
+    margin: 0 auto;   /* Centrado horizontal automático perfecto */
+    
+    /* Configuración interna para centrar el video que esté adentro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
